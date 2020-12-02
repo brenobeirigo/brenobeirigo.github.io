@@ -1,0 +1,195 @@
+## Amsterdam canals
+
+* Maximum legal speed on the city’s canals, which tends to be about 6 kph.[1](https://www.ust-media.com/ust-magazine/UST031/76/).
+
+* One typical summer day (August 12, 2017), 502 vessels (boats, ferries, cargo ships) cruised along the 100 km canals and their 1,200 bridges (see [visualization](https://youtu.be/HzPIzvSXSDM)).
+ 
+* 17 million tourists visit Amsterdam every year (300,000 come on cruise ships).
+
+* Canals encompass
+more than 100 km of waterways
+and over 1,500 bridges. More than
+1,500 historic buildings are located alongside such iconic canals like the Prinsengracht, Keizersgracht, Herengracht and Jordaan, effectively anchoring the cultural gravitas of the city and rightfully earning them a place for the canals in UNESCO World
+Heritage Site list (source: [senseable city guide](http://senseable.mit.edu/papers/pdf/20170525_SCL_Guide_Amsterdam-Roboat.pdf)).
+
+# Roboat
+
+## Features
+
+* The Roboat is a barge-like, multi- purpose USV that is being developed to collect waste and transport construction materials in the centre of Amsterdam [[1](https://www.ust-media.com/ust-magazine/UST031/76/)].
+
+* The novel robotic boat is easy to manufacture, highly maneuverable, and capable of accurate trajectory tracking in both indoor and outdoor environments [[2](https://www.ams-institute.org/urban-challenges/smart-urban-mobility/roboat/))].
+
+* The full-scale boat measures 2 by 4 meters. “These relatively small dimensions make the boat well suited for the urban environment,” says Carlo Ratti, Director of MIT Senseable City Lab and Principal Investigator in the project.
+
+## Waste collection
+
+ * Almost 23 million kilos of household waste alone is produced in Amsterdam’s city centre each year; that’s aside from any commercial, industrial or green waste. [1](https://www.ust-media.com/ust-magazine/UST031/76/)
+
+
+### Why?
+
+**1) Avoid damage to quay walls**
+
+Waste is transported mainly by heavy, diesel-powered trucks on congested city roads, which not only worsen traffic and pollution but can damage quay walls and pavements, causing further disruption, safety risks, and costing taxpayers’ money to fix. [1](https://www.ust-media.com/ust-magazine/UST031/76/)
+
+Media:
+
+* [ “Quay wall Grimburgwal in the City of Amsterdam collapsed” Het Parool: “Kilometres of #quaywalls in the city are in poor condition due to years of neglect.](https://www.linkedin.com/company/amsterdam-institute-for-advanced-metropolitan-solutions/videos/native/urn:li:ugcPost:6706588026425888770/?isInternal=true&lipi=urn%3Ali%3Apage%3Acompanies_company_videos_index%3BVkmIVbHMSyyinIqJ81OjNA%3D%3D)
+
+Questions:
+
+* What is the route of the trucks?
+* What is the cost of the current system (trucks, labor, maintenance, quay wall reparations, etc.)?
+* Are there areas only accessible by trucks? Where can Roboats successfully replace trucks?
+
+**2) Decrease traffic**
+
+
+*Problem:* The city center of Amsterdam is relatively small but busy.
+
+*Solution:* As 25% of the city of Amsterdam consists of water surface, Amsterdam offers the ideal environment to expand its current infrastructure with the deployment of autonomous vessels, alleviating pressure from the streets.
+Amsterdam is ideally suited to moving waste collection off its road network and onto its canals.
+For example, by using Roboat to collect waste from Amsterdam’s city center, the number of traffic movements within the city center can be reduced. 
+
+
+
+**3) Improve waste separation**
+
+*Problem:* The current paradigm requires that residents take different types of trash to distinct locations, the inconvenience and complexity frequently result in lower recovery rates for recyclables and environmentally harmful waste. In response, Amsterdam is keen on significantly improving waste separation rates by 2020 [[1](https://www.ams-institute.org/urban-challenges/smart-urban-mobility/roboat/)].
+
+*Solution:* Roboat offers enormous possibilities in terms of environmental exploration and sensing. Roboats could also clear the canals from waste. The floating dumpsters can play a key role in source separation when other types of waste are added to the equation.
+
+**4) Decrease visual pollution**
+
+*Problem:* wast is currently placed at the curbs of the canals, distorting the view on the canals, taking up a lot of space and attracting rodents.
+
+*Solution:* For the scenic views on the Amsterdam canals Roboat offers a more attractive way of collecting household waste.
+
+* By placing the containers in the water, Roboat offers an alternative to the current built-in underground containers used throughout the city, which are unsuitable to be placed within the fragile quays of the canals. 
+* Assuming that residents are willing to walk a maximum of 110 meters to dispose of household waste – the average distance Amsterdammers need to walk in other neighborhoods to bring their waste to the underground containers – approximately 48 floating containers need to be deployed in the canals to offer sufficient capacity.
+* When the containers are full, a Roboat tug boat navigating autonomously will take the floating containers to the waste processing platform. With one vessel, the household waste of about 1100 households can be collected in a flexible and quiet way, without taking up space on the street.
+
+
+### Goal
+
+* Amsterdam becomes a leading eco-friendly city. *
+
+
+The Roboat is being developed for a range of uses, with autonomous waste collection being touted strongly as an alternative to road-based refuse handling.
+
+**Status-quo:** Traffic movements, pressure on fragile quays of Amsterdam canals.
+ 
+**Battery:** The 12 kW battery currently provides 9-hours of non-stop operating time which enables the possibilities for various use cases.
+
+**Tests:** Way-point finding, autonomously docking and undocking, and obstacle avoidance.
+
+## Use cases
+
+Part of the research is that possible application areas are assessed for their innovative character and added value for the city and its inhabitants. 
+
+### Modular Roboat
+Roboat has a unique modular design. The vessel consists of a hull, that forms the technical basis of the boat, designed with different top-decks that can be applied for multiple use cases: transportation of people and garbage collection, as well as stages and bridges when latched together.
+
+**Research assigments**
+
+* *Integrated transportation:* Roboat is used to transport people, freight, garbage, etc. According to the demand distribution of each commodity, Roboat fleets go to service points where top-decks are outfitted. How long does it take to change the upper part?
+
+* *Floating platforms:* When individual Roboat units are latched, different combinations of floating platforms can be created. In their new configuration they form floating pixels and respond as new autonomous organisms. Can this platforms be assembled on-demand as trasnfer points for ongoing routes?
+
+### Museum visits
+
+Roboat can be used as an alternative mode of transport to get to museums in Amsterdam. By strategically combining museum visits and boat tours, we propose an innovative approach using Roboat to improve the museum experience in Amsterdam.
+
+**Research assigment**
+
+* *Routing touristic tours:* How many visitors per day (300? How to measure their movements? What about the ongoing boat tours? Where are the pickup points? Which points to include in the route? How to create personalized tours?
+
+
+
+![museum](http://senseable.mit.edu:60080/uploads/42d0d640e2e44e77b4b583cf84b4a66b.jpg)
+
+### Waste collection
+
+Roboat units can collect waste for the Centrum district of Amsterdam, where residents currently deposit trash on the curb for collection. To alleviate the many problems caused by large trash trucks on historic streets - congestion, pollution, noise, etc. - Roboat can serve as floating dumpsters that autonomously transfer waste. Our research shows that such a system could serve 70% of the Centrum district.
+
+Beyond Amsterdam, the proposed fleet of waste-collecting vehicles has the potential to provide infrastructural improvements in other water-based cities, where the need for a nimble waste collection system is even more dire.
+
+![waste](http://senseable.mit.edu:60080/uploads/eb3cdb3342824ef1b24fc796e0dca016.jpg)
+
+### RoundAround
+
+Could a fleet of autonomous boats shorten distances between Amsterdam's newest innovation center and a major tourist attraction while at the same time showcasing cutting-edge science, design, and technology? This is what we propose with roundAround, a dynamic circular bridge composed of Roboats.
+
+![round](http://senseable.mit.edu:60080/uploads/fed2789eea7d461d853f0bfddaa50995.jpg)
+
+### Edge interface
+
+A key question for the Roboat project is how to interface between the canals and streets of Amsterdam. The solutions should be flexible and adaptive for different contexts. We propose three design solutions for different use cases. The first looks to extend the canal edge as a public space with a series of platforms. The second takes a more conventional route with a dynamic platform attached with a stair. The third allows for flexible docking with an extendable ladder.
+
+![interface](http://senseable.mit.edu:60080/uploads/1d32c4697d1943b196337007a2b8bffb.jpg)
+
+### Passenger transportation
+
+Roboats can be autonomous water taxis or buses, adding to the experience of both tourists and locals. And by leveraging a Roboat as a tugboat, existing private boats can enjoy an on-demand transportation service. This system allows individuals to moor their boats outside the city, and request it on demand.
+
+![mobility](http://senseable.mit.edu:60080/uploads/ad158d068d464caeb0d3e4a44bb2fd41.jpg)
+
+**Research assignments**
+
+* *Tugging private boats on-demand:* What is the demand? Can Roboats stop anywhere? Is there a central Roboat depot? Where are the moorings?
+
+* *On-demand transportation:* Where does it make sense to use Roboats in comparison with other modes (see [time comparison](http://senseable.mit.edu/timing-amsterdam/))? Is it feasible to include Roboats in MaaS? 
+
+### Food delivery
+
+Roboat units can form floating food markets or become pop-ups stalls that appear on the canal’s edge for Amsterdammers to collect crates of fresh produce. We imagine this use of autonomous boats could promote healthier food and create new public spaces for Amsterdam. Roboat activates the canals while tapping into the resources located on the pervasive regional network of waterways.
+
+![food](http://senseable.mit.edu:60080/uploads/23f1f8b1cc7a42e382b6d028f64a311b.jpg)
+
+**Drawbacks**
+
+The use cases for food distribution and temporary floating markets for IJburg and the Havenstad area, of which the latter has yet to be developed, show insufficient potential because of Amsterdam’s rich supermarket density. On average, Amsterdammers only have to travel 400 meters to the nearest supermarket for good access to healthy and affordable food [[2](https://www.ams-institute.org/news/roboat-ahoy-first-prototypes-autonomous-boats-tested-amsterdam/)].
+
+### Logistics
+
+
+![parcel]('https://www.ams-institute.org/media/original_images/160918_ROBOAT_2_small.jpg')
+
+
+### Temporary infrastructure
+
+Roboat units can join together to create temporary bridges, alleviating congestion on Amsterdam’s centuries-old bridges and canal-side streets. As an autonomous system, Roboat can respond in real time to the ebb and flow of rush hour traffic. Individual units can also tessellate to form floating stages and public squares on the canals, enhancing Amsterdam’s strong tradition of water-based events with a 21st-century technology.
+
+![infra](https://senseable.mit.edu:60080/uploads/e53eb4c2b1fb4bf3b874cef96d2d350c.jpg)
+
+**Research assignments**
+
+
+### Construction material
+
+Project Amsterdam Vaart! - a consortium consisting of the City of Amsterdam, the Port of Amsterdam, Waternet and TNO - will tell more about how various construction projects have been transporting their materials by water since 2018 and this number is still on the rise. Amsterdam Vaart! has already achieved a reduction of 10,000 inner-city road kilometers and a considerable CO<sup>2</sup> reduction. These insights lead to adjustments of municipal policy and the way of working. Session hosted by Jessica van Rijn (TNO) ([link](https://www.ams-institute.org/events/ama-smart-mobility-festival/)).
+
+* "reduction of 10,000 inner-city road kilomenters and CO<sup>2</sup>" - How to calculate this?
+
+Links:
+
+* [AMS blog post](https://www.ams-institute.org/news/roboat-introduces-full-scale-boat-ready-autonomous-tests-amsterdam-canals/)
+
+* [AMS linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:6735206538123722752/)
+
+Can you imagine taking a tour through Amsterdam on a self-driving boat? Roboat now introduces Lucy – the first full-scale design – ready to start piloting real-life use cases!
+
+After successfully implementing full autonomy on the 1:4 and 1:2 scale boats, today's launch of the full-scale vessel is another milestone for our Roboat team.
+
+Together with engineers, computer scientists and designers from MIT Senseable City Lab and MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), the Amsterdam based team is working towards full autonomy of the full-scale boat.
+
+Tests will be conducted in the water of Marineterrein Amsterdam Living Lab – a testbed for innovations and AMS Institute’s home base – in the upcoming months.
+
+Curious what the design looks like? And what cutting-edge technologies make that Roboat can navigate autonomously on the Amsterdam canals? Take a look here: www.ams-institute.org/Lucy
+
+Partners
+
+* [Waternet](https://www.linkedin.com/company/waternet/)
+
+
