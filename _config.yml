@@ -22,7 +22,7 @@ authors:
   breno:
     name: Breno Breno
     site: https://www.wowthemes.net
-    avatar: https://avatars2.githubusercontent.com/u/19824664?s=460&u=606500db16091bada2cb3d9917d64a9fd252cf54&v=4
+    avatar: /assets/images/breno.jpg
     bio: "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
     email: wowthemesnet@gmail.com
     twitter: https://twitter.com/wowthemesnet
@@ -30,7 +30,7 @@ authors:
   bilge:
     name: Bilge Atasoy
     site: https://www.wowthemes.net
-    avatar: https://d1rkab7tlqy5f1.cloudfront.net/_processed_/1/6/csm_30f8r_ce113d7479.jpg
+    avatar: /assets/images/bilge.jpg
     bio: "Bilge is an assistant professor in the Department of Maritime and Transport Technology, Transport Engineering and Logistics section. Prior to joining TU Delft, Bilge worked first as a postdoctoral associate and then as a research scientist at MIT, with Prof. Moshe Ben-Akiva in the ITS Lab. She managed research projects in the areas of real-time optimization, travel behavior and choice-based optimization. She received her PhD from EPFL in 2013 where she was working with Prof. Michel Bierlaire. Her major is in Industrial Engineering with BSc and MSc degrees from Bogazici University, Istanbul in 2007 and 2009 respectively."
     email: fakemail@gmail.com
     twitter: https://twitter.com/wowthemesnet
