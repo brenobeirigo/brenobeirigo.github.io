@@ -1303,7 +1303,7 @@ pre {
    font-size: 0.6rem;
 }
 .table-small td {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 @media (max-width: 575.98px) {
