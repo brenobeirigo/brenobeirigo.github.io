@@ -3,7 +3,7 @@ layout: post
 title:  "Writing in the Sciences (Kristin Sainani)"
 author: breno
 categories: [ courses, writing, summary ]
-image: https://unsplash.com/photos/Oaqk7qqNh_c
+image: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 ---
 
 [LINK](https://www.coursera.org/learn/sciwrite)
