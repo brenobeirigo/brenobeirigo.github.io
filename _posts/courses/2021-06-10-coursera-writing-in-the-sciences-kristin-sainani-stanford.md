@@ -24,6 +24,15 @@ image: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA
     - Dash
       - Add emphasis or insert an abrupt definition/description.
       - Use only when a more common mark of punctuation is anedequate.
+      - En and Em dashes ([read more](https://getitwriteonline.com/articles/en-dashes-em-dashes/))
+        - "En dash" (–):
+          - Approximately the length of the letter *n*.
+          - Keyboard shortcut (Windows): `Alt + 0150`.
+          - Used to mark ranges.
+        - "Em dash" (—):
+          - Length of the letter *m*.
+          - Keyboard shortcut (Windows): `Alt + 0151`.
+          - Used to separate extra information or mark a break in a sentence.
     - Parentheses
       - Insert afterthought of explanation.
       - Not essential.
@@ -60,10 +69,11 @@ Make the choice for the structure and stick with it.
     - General to specific (take-home, general point, specific elements);
     - Logical arguments (`if a then b;a;therefore b`).
   - parallel sentence structures;
-  - *if necessary*, transition words (crutch for underlying faulty logic).
+  - *if necessary*, use transition words. A transition word tells the reader: "Hey! I am going here, I am goin there!", working as "crutches" for faulty underlying logic.
     - No fancy transitions (e.g., on the other hand, nevertheless), use "AND" (tacking on additional information) and "BUT" (changing gears).
 - Make the last sentence memorable (readers remember first and last sentence best).
 - Boil each sentence down to its *upshot* (the final or eventual outcome or conclusion) and organize/edit the paragraph.
+  - Outline what the paragraph is trying to convey: main idea, supporting ideas, and sub-supporting ideas.
 - Repetition:
   - Is the second instance of the word even necessary?
   - If the word is necessary, is a synomym really better than just repeating the word?
@@ -75,7 +85,7 @@ Make the choice for the structure and stick with it.
 - Acronym = read as a word (e.g., NASA).
 - Initialism = read each letter (e.g., CPU).
 - Resist the temptation to abbreviate words because they occur frequently.
-- Use only standard; readers are burdened.
+- Use only standard; otherwise readers are burdened (like translating a foreign word).
 - Remember readers don't typically read start to finish; if you must use acronyms:
   - Define them separately in the abstract, each table/figure, and the text.
   - For long papers, redefine occasionally.
