@@ -39,8 +39,25 @@ Training data include *labels* (desired solutions). E.g.:
 
 ## Instance-Based Versus Model-Based Learning
 
+How can ML systems *generalize* (make predictions for examples it has never seen before)?
+Good performance on the training is good but insufficient; the true goal is to performe well on new instances.
+### Instance-based learning
+System learns the examples by heart, then generalizes to new cases by using a *similiraty measure* (used to compare with learned examples or a subset of them).
 
+### Model-based learning
+Build a model using the examples and use the model to make *predictions*. Process:
+- Study the data.
+- Model selection:
+  - Chose a model type (e.g., linear regression).
+  - Fully specify its architecture (e.g., one input and one output).
+- Train the model: Find parameters that will make it best fit the training data (e.g., `θ_0 = 4.85` and `θ_1 = 4.91E–5`).
+- Apply the model to make predictions on newe cases (inference).
 
+Performance measures:
+- utility/fitness function: how *good* the model is.
+- cost function: how *bad* the model is.
+
+## Main challenges of machine learning
 # 2) End-to-end machine learning project
 
 Steps:
@@ -130,8 +147,43 @@ Things to be aware of:
 
 ### Create a Test Set
 
+***Data snooping/fishing/dredging bias = innapropriate Data dredging, also known as significance chasing, significance questing, selective inference, and p-hacking is the misuse of data analysis to find patterns in data that can be presented as statistically significant, thus dramatically increasing and understating the risk of false positives. 
+
+Pick some instances - typically 20% - randomly, and set them aside.
+
+If dataset does not change:
+  - Save the test set on the first run and load it in subsequent runs;
+  - Fix the random number generator's seed (e.g., `np.random.seed(42)`) to always generate the same shuffled indices.
+
+If dataset is updated (fetched regularly):
+  - Select instances by their unique immutable identifiers (e.g., instance belongs to test set if hash id <= 20% of the max. hash value).
+  - For example: 
+    ```python
+    from zlib import crc32
+
+    def test_set_check(identifier, test_ratio):
+        checksum = crc32(np.int64(identifier)) # Computes a CRC (Cyclic Redundancy Check) unsigned 32-bit checksum
+        max_test_id = test_ratio * 2**32
+        return checksum & 0xffffffff < max_test_id
+    ```
+
+To create immutable IDs:
+- Append new data to end of the dataset.
+- Use most stable features (e.g., combine lat & lng).
+
+#### Sampling bias
+
+If dataset is not large enough, purely random sampling run the risk of introducing *sampling bias*.
 
 
+
+To guarantee the test set is representative of the overal population, use *stratified sampling*:
+- divide the population into homogeneous subgroups (*strata*).
+- sample the right (sufficient) number of instances from each stratum. E.g.:
+  - Interview 1,000 people knowing that the US population is comprised of 51.3% female and 48.7% male.
+  - In heavy-tailed distributions, determine strata based on where most values fall within and create a stratum out of the tail.
+
+> You should not have too many strata, and each stratum should be large enough.
 
 
 # Expressions
@@ -139,6 +191,7 @@ Things to be aware of:
 - The estimates **were off** by 20\%.
 - Taking up a lot of resources to train for hours every day is a **showstopper** (an obstacle to further progress).
 - ... you are told that the data has been scaled and **capped at** 15 (actually 15.0001) for higher median incomes, and at 0.5 (actually 0.4999) for lower median incomes. 
+- To *whet your appetite*...
 
 # Basic statistics (Naked statistics - Charles Wheelan)
 
